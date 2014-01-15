@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html>
+	<head> 
+     <title>Easy Fullscreen Background - by plusquare</title>
+     
+	<script type="text/javascript" src="jquery/jquery-1.6.2.min.js"></script> 
+	<script type="text/javascript" src="jquery/modernizr.custom.26584.js"></script> 
+	<script type="text/javascript" src="jquery/swfobject.js"></script> 
+	<script type="text/javascript" src="js/video_background.js"></script> 
+     
+     </head>
+
+     <body>
+		<script type="text/javascript">
+               jQuery(document).ready(function($) {
+                    $("body").video_background({  format:"472:296", 
+										flv:"video/VH_videoAsset.flv" , 
+										formatMobile:"472:296", 
+										flvMobile:"video/VH_videoAsset.flv",
+										loop:"true", 
+										autoplay:"true",
+										muted:"false"
+										});
+				
+               });
+          </script>
+          
+     </body>
+</html>
